@@ -1,0 +1,21 @@
+title: DevPulse // Code, Tech & Media Blog
+description: Insights on modern software engineering, web development, and content creation.
+baseurl: "" # Leave empty for GitHub Pages root domain
+url: "https://username.github.io" # Replace with your GitHub username
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Author Info
+author:
+  name: Alex Developer
+  email: alex@example.com
+  twitter: alex_dev
